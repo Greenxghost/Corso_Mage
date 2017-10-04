@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Iacuzio_Helloworld>
+            <version>0.1.0</version>
+        </Iacuzio_Helloworld>
+    </modules>
+    <global>
+        <blocks>
+            <iacuzio_helloworld>
+                <class>Iacuzio_Helloworld_Block</class>
+            </iacuzio_helloworld>
+        </blocks>
+        <helpers>
+            <iacuzio_helloworld>
+                <class>Iacuzio_Helloworld_Helper</class>
+            </iacuzio_helloworld>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <iacuzio_helloworld>
+                <use>standard</use>
+                <args>
+                    <module>Iacuzio_Helloworld</module>
+                    <frontName>hello</frontName>
+                </args>
+            </iacuzio_helloworld>
+        </routers>
+    </frontend>
+    <default>
+        <iacuzio_helloworld>
+            <configuration>
+                <enabled>1</enabled>
+                <message>Test Message from config xml</message>
+            </configuration>
+        </iacuzio_helloworld>
+    </default>
+</config>
