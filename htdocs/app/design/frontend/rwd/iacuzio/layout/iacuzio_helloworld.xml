@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <iacuzio_helloworld_index_index>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-right.phtml</template>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="iacuzio_helloworld/helloworld" name="helloworld.content" template="helloworld/message.phtml"/>
+        </reference>
+    </iacuzio_helloworld_index_index>
+</layout>
+
+
+
+
+
+
+

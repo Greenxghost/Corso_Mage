@@ -33,6 +33,6 @@ class Iacuzio_Helloworld_Helper_Data extends Mage_Core_Helper_Abstract
      */
     public function isEnabled()
     {
-        return $this->getConfig('conguration/enabled');
+        return $this->getConfig('configuration/enabled');
     }
 }

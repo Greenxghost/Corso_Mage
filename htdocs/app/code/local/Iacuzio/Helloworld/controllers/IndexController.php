@@ -15,7 +15,8 @@ class Iacuzio_Helloworld_IndexController extends Mage_Core_Controller_Front_Acti
 {
     public function indexAction()
     {
-        echo 'hello';
+        $this->loadLayout();
+        $this->renderLayout();
     }
 }
 

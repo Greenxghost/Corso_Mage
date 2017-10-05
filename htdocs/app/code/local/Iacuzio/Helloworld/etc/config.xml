@@ -27,6 +27,13 @@
                 </args>
             </iacuzio_helloworld>
         </routers>
+        <layout>
+            <updates>
+                <iacuzio_helloworld>
+                    <file>iacuzio_helloworld.xml</file>
+                </iacuzio_helloworld>
+            </updates>
+        </layout>
     </frontend>
     <default>
         <iacuzio_helloworld>
